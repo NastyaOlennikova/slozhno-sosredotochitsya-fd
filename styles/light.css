@@ -54,4 +54,38 @@
       --block-title-color: var(--main-color);
       --hover-border: rgba(53, 52, 48, 0.4);
     }
+
+    .theme-auto .page {
+      .right-corner__decoration {
+        --accent-color: var(--main-color);
+      }
+
+      .left-corner__decoration {
+        --accent-color: var(--main-color);
+      }
+
+      .icon__decoration {
+        --accent-color: var(--main-color);
+      }
+
+      .icon__decoration::before {
+        display: none;
+      }
+
+      .icon__text {
+        display: none;
+      }
+
+      .icon__image {
+        display: none;
+      }
+
+      .header__theme-menu-button {
+        color: var(--main-color);
+      }
+
+      .header__theme-menu-button_active {
+        border: 1px solid #353430 !important;
+      }
+    }
   }

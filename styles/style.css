@@ -191,7 +191,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: end;
-  block-size: 100vh;
+  min-block-size: 100vh;
 }
 
 .footer__title {
@@ -222,7 +222,7 @@
   justify-self: end;
 }
 
-@media (width >=768px) {
+@media (width >=780px) {
   .header {
     justify-content: space-between;
     padding: 20px;
@@ -317,10 +317,6 @@
     grid-column: 2;
   }
 
-  .advice .text:last-of-type {
-    margin-block-end: 0;
-  }
-
   .why__block {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -340,6 +336,11 @@
 
   .why__block .text {
     grid-column: 2;
+  }
+
+  .what__block { 
+    margin-block-end: 60px;
+
   }
 
   .what__block .content__block-title {

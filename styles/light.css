@@ -1,5 +1,5 @@
   :root.theme-light {
-    --bg-image: url(/images/cover-image-light.png);
+    --bg-image: url(../images/cover-image-light.png);
     --bg-color: #FFF1F7;
     --accent-color: #FF8DCB;
     --title-color: #FFC2E6;
@@ -7,6 +7,7 @@
     --subtitle-color: var(--main-color);
     --block-title-color: var(--main-color);
     --hover-border: rgba(53, 52, 48, 0.4);
+    --decorations-color: #353430;
   }
 
   .theme-light .page {
@@ -39,13 +40,13 @@
     }
 
     .header__theme-menu-button_active {
-      border: 1px solid #353430 !important;
+      border: 1px solid #353430;
     }
   }
 
   @media (prefers-color-scheme: light) {
     :root {
-      --bg-image: url(/images/cover-image-light.png);
+      --bg-image: url(../images/cover-image-light.png);
       --bg-color: #FFF1F7;
       --accent-color: #FF8DCB;
       --title-color: #FFC2E6;
@@ -85,7 +86,7 @@
       }
 
       .header__theme-menu-button_active {
-        border: 1px solid #353430 !important;
+        border: 1px solid #353430;
       }
     }
   }

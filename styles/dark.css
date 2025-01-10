@@ -1,13 +1,7 @@
   :root.theme-dark {
-    --bg-image: url(/images/cover-image-dark.png);
+    --bg-image: url(../images/cover-image-dark.png);
     --bg-color: #000028;
-    --main-font-size: 18px;
-    --title-font-size: 116px;
     --accent-color: #FF0070;
-    --main-font-family: 'IBM Plex mono';
-    --main-font-weight: 400;
-    --subtitle-font-weight: 700;
-    --title-font-weight: 700;
     --subtitle-color: #000;
     --block-title-color: var(--accent-color);
     --main-color: #fff;

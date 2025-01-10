@@ -3,10 +3,10 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
   --main-font-size: 18px;
-  --title-font-size: 116px;
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --accent-color: #FF0070;
   --main-font-family: 'IBM Plex mono';
   --main-font-weight: 400;
@@ -17,4 +17,11 @@
   --main-color: #fff;
   --title-color: #DB00FF;
   --hover-border: rgb(255, 0, 112, 0.4);
+  --decorations-color: #FF0070;
+}
+
+@media (width >= 780px) {
+  :root {
+    --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+  }
 }

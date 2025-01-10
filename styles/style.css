@@ -186,13 +186,12 @@
 
 .footer {
   padding: 10px;
-  margin-block-start: 40px;
+  margin-block-start: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: end;
   block-size: 100vh;
-  min-block-size: 668px;
 }
 
 .footer__title {

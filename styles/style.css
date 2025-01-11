@@ -129,6 +129,10 @@
   margin-block-end: 50px;
 }
 
+.section:last-child {
+  margin-block-end: 30px;
+}
+
 .link {
   text-decoration: none;
   text-shadow: 3px 3px 0 var(--accent-color);
@@ -262,15 +266,19 @@
   }
 
   .text__content {
-    padding: 0 20px;
+    padding: 20px;
   }
 
   .picture__content {
-    padding: 0 20px;
+    padding: 20px;
   }
 
   .section {
     margin-block-end: 80px;
+  }
+
+  .section:last-child {
+    margin-block-end: 40px;
   }
 
   .gallery {

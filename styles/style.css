@@ -129,10 +129,6 @@
   margin-block-end: 50px;
 }
 
-.section:last-child {
-  margin-block-end: 30px;
-}
-
 .link {
   text-decoration: none;
   text-shadow: 3px 3px 0 var(--accent-color);
@@ -275,10 +271,6 @@
 
   .section {
     margin-block-end: 80px;
-  }
-
-  .section:last-child {
-    margin-block-end: 60px;
   }
 
   .gallery {

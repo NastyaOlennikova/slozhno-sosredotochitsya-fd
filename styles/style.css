@@ -33,7 +33,7 @@
 
 .icon {
   position: relative;
-  color: var(--decorations-color); 
+  color: var(--decorations-color);
   font-size: var(--main-font-size);
   font-weight: var(--main-font-weight);
   font-family: var(--main-font-family);
@@ -61,8 +61,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--decorations-color); 
-  border-right: 1px solid var(--decorations-color); 
+  border-top: 1px solid var(--decorations-color);
+  border-right: 1px solid var(--decorations-color);
   top: 50%;
   left: 100%;
   transform: translate(-50%, -50%);
@@ -268,12 +268,12 @@
     margin-block-start: 50px;
   }
 
-  .text__content  {
+  .text__content {
     padding: 0 20px;
-}
+  }
 
   .picture__content {
-      padding: 0 20px;
+    padding: 0 20px;
   }
 
   .section {

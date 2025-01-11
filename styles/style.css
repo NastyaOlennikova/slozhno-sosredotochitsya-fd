@@ -118,7 +118,7 @@
   color: var(--subtitle-color);
   line-height: 1.3;
   background-color: var(--accent-color);
-  margin-bottom: 25px;
+  margin-block-end: 30px;
 }
 
 .text__content {
@@ -199,7 +199,7 @@
 }
 
 .gallery__item:not(:last-child) {
-  padding-bottom: 10px;
+  padding-block-end: 10px;
 }
 
 .footer {
@@ -249,7 +249,7 @@
   .header__title {
     margin: 65px 0 60px 0;
     align-self: start;
-    margin-left: -20px;
+    margin-inline-start: -20px;
   }
 
   .title__description {
@@ -411,10 +411,11 @@
   .header__theme-menu {
     grid-column: 2 / 3;
     grid-row: 1;
+    margin-inline-start: 10px;
   }
 
   .header__title {
-    margin-block-start: 170px;
+    margin-block-start: 220px;
   }
 
   .icon {

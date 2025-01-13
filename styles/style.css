@@ -69,7 +69,6 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 2px
 }
 
 .header__theme-menu-button {

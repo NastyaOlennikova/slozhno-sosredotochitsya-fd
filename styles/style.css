@@ -101,7 +101,7 @@
 }
 
 .header__title {
-  margin: 55px 0 55px 0;
+  margin: 60px 0 55px 0;
   font-size: var(--title-font-size);
   display: block;
   color: var(--title-color);

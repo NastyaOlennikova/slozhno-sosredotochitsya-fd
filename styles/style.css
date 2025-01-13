@@ -170,6 +170,11 @@
   margin-block-end: 10px;
 }
 
+.what__block {
+  margin-block-end: 48px;
+}
+
+
 .picture__content {
   padding: 10px;
 }

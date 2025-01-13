@@ -14,13 +14,13 @@
   --title-font-weight: 700;
   --subtitle-color: #000028;
   --block-title-color: var(--accent-color);
-  --main-color: #fff;
+  --main-color: #F1B2CE;
   --title-color: #DB00FF;
   --hover-border: rgb(255, 0, 112, 0.4);
   --decorations-color: #FF0070;
 }
 
-@media (width >=780px) {
+@media (width >=768px) {
   :root {
     --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }

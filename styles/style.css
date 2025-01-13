@@ -102,7 +102,7 @@
 }
 
 .header__title {
-  margin: 50px 0 60px 0;
+  margin: 55px 0 55px 0;
   font-size: var(--title-font-size);
   display: block;
   color: var(--title-color);
@@ -198,7 +198,7 @@
 
 
 .gallery {
-  margin-block-end: 40px;
+  margin-block-end: 30px;
 }
 
 .gallery__item {
@@ -300,6 +300,7 @@
   }
 
   .gallery {
+    margin-block-end: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content min-content min-content;
@@ -435,6 +436,7 @@
     inline-size: 100%;
     grid-template-columns: repeat(auto-fit, 1fr);
     margin-block-end: 60px;
+    justify-content: space-between;
   }
 
   .what__block .card {
